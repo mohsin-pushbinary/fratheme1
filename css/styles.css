@@ -11184,3 +11184,31 @@ color:#fff;
 .cardt{
 color:#f4623a;
 }
+.img1{
+  height: auto;
+}
+@media(max-width:480px){
+  .img1{
+    height: 400px;
+  }
+}
+.card1{
+  height:330px;
+}
+@media(max-width:480px){
+  .card1{
+    height:auto !important;
+  }
+}
+@media(max-width:480px){
+  .carousel-caption {
+    top: 130px !important;
+    width: 270px;
+    z-index: 99999 !important;
+}
+}
+@media(max-width:480px){
+  .d-none{
+    display: initial !important;
+  }
+}
